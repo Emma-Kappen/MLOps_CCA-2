@@ -2,3 +2,5 @@
 /artifacts/*
 /data/*
 /production/*
+/__pycache__/
+*.pyc
