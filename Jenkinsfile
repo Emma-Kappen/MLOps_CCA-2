@@ -5,6 +5,7 @@ pipeline {
     environment {
         PROJECT_DIR = 'C:\\Users\\emkap\\Documents\\Projects\\MLOps_CCA-2'
         PY = 'venv\\Scripts\\python.exe'
+        LOKY_MAX_CPU_COUNT = "${env.NUMBER_OF_PROCESSORS}"
     }
     stages {
         stage('Setup') {
